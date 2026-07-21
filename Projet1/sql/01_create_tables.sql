@@ -1,3 +1,7 @@
+-- ============================
+-- TABLES FINALES
+-- ============================
+
 -- Table des clients
 CREATE TABLE customers (
     customer_id INTEGER PRIMARY KEY,
@@ -22,4 +26,23 @@ CREATE TABLE orders (
     total NUMERIC(10,2),
     payment_method VARCHAR(50),
     status VARCHAR(50)
+);
+
+-- ============================
+-- TABLE DE STAGING (données brutes, avant nettoyage)
+-- ============================
+
+-- Table intermédiaire : reçoit le CSV tel quel, tout en texte, pour éviter les erreurs d'import dues aux données mal typées
+CREATE TABLE raw_sales (
+    id VARCHAR(20),
+    customer_name VARCHAR(100),
+    order_id VARCHAR(20),
+    order_date VARCHAR(20),
+    product VARCHAR(100),
+    category VARCHAR(100),
+    quantity VARCHAR(20),
+    price VARCHAR(20),
+    payment_method VARCHAR(50),
+    status VARCHAR(50),
+    total VARCHAR(20)
 );
