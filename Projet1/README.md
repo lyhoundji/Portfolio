@@ -55,7 +55,6 @@ Trois tables reliées entre elles (*customers*, *products*, *orders*) voir *sql/
 **Top produits**
 
 **Blender** est le produit star de la boutique : n°1 à la fois en chiffre d'affaires et en quantité vendue.
-
 Les deux classements (CA et quantité) ne se recoupent pas totalement, ce qui distingue deux profils de produits :
 * **Science** figure dans le top 5 par quantité vendue, mais pas dans le top 5 par chiffre d'affaires : un produit qui se vend souvent, mais à faible valeur unitaire.
 * **Basketball** figure dans le top 5 par chiffre d'affaires, mais pas dans le top 5 par quantité : un produit moins vendu, mais plus rentable à l'unité.
@@ -63,3 +62,8 @@ Les deux classements (CA et quantité) ne se recoupent pas totalement, ce qui di
 **Segmentation par catégorie**
 
 **Home** est la catégorie la plus rentable, à la fois en chiffre d'affaires total (79 395) et en nombre de clients (25). Mais l'écart est plus marqué qu'il n'y paraît : rapporté au nombre de clients, un acheteur "home" dépense en moyenne **3 176**, contre seulement **959** pour un acheteur "electronics", soit plus de 3 fois plus.
+
+**Saisonnalité**
+ 
+Le mois de **février 2025** se distingue avec un chiffre d'affaires largement supérieur aux autres mois (**66 329**, contre une moyenne d'environ **12 000** sur le reste de la période).
+Cependant, ce pic ne se retrouve ni en février 2023 ni en février 2024 : il s'agit probablement de quelques commandes ponctuelles à forte valeur, plutôt que d'une véritable saisonnalité récurrente. Le faible volume de données disponible (100 commandes réparties sur environ 3 ans) limite de toute façon la capacité à identifier une saisonnalité fiable sur ce dataset.

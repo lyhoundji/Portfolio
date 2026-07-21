@@ -33,7 +33,6 @@ GROUP BY p.product_name
 ORDER BY quantite_vendue DESC
 LIMIT 5;
 
-
 -- ------------------------------------------------------------
 -- 2. SEGMENTATION — catégories les plus attractives et rentables
 -- ------------------------------------------------------------
@@ -50,3 +49,17 @@ FROM orders o
 JOIN products p ON o.product_id = p.product_id
 GROUP BY p.category
 ORDER BY chiffre_affaires DESC;
+
+-- ------------------------------------------------------------
+-- 3. SAISONNALITÉ — évolution du chiffre d'affaires par mois
+-- ------------------------------------------------------------
+-- Question du gérant : "Nos ventes varient-elles selon les mois ?"
+-- ------------------------------------------------------------
+
+SELECT
+    EXTRACT(YEAR FROM order_date) AS annee,
+    EXTRACT(MONTH FROM order_date) AS mois,
+    SUM(o.total) AS chiffre_affaires
+FROM orders o
+GROUP BY EXTRACT(YEAR FROM order_date), EXTRACT(MONTH FROM order_date)
+ORDER BY annee ASC, mois ASC;
