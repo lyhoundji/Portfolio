@@ -7,7 +7,7 @@ Le gérant d'une boutique en ligne exporte régulièrement ses données de vente
 Avant de pouvoir piloter son activité, il a besoin de réponses fiables à ces questions :
 
 * Quels sont nos produits qui rapportent le plus de chiffre d'affaires, et lesquels se vendent le plus en quantité ?
-* Quels types de clients achètent le plus, et à quelle fréquence ?
+* Quelles catégories de produits attirent le plus de clients, et lesquelles génèrent le plus de chiffre d'affaires ?
 * Nos ventes varient-elles selon les mois ?
 * Quel est notre chiffre d'affaires total, et comment évolue-t-il ?
 
@@ -57,6 +57,9 @@ Trois tables reliées entre elles (*customers*, *products*, *orders*) voir *sql/
 **Blender** est le produit star de la boutique : n°1 à la fois en chiffre d'affaires et en quantité vendue.
 
 Les deux classements (CA et quantité) ne se recoupent pas totalement, ce qui distingue deux profils de produits :
-* Science figure dans le top 5 par quantité vendue, mais pas dans le top 5 par chiffre d'affaires : un produit qui se vend souvent, mais à faible valeur unitaire.
-* Basketball figure dans le top 5 par chiffre d'affaires, mais pas dans le top 5 par quantité : un produit moins vendu, mais plus rentable à l'unité.
+* **Science** figure dans le top 5 par quantité vendue, mais pas dans le top 5 par chiffre d'affaires : un produit qui se vend souvent, mais à faible valeur unitaire.
+* **Basketball** figure dans le top 5 par chiffre d'affaires, mais pas dans le top 5 par quantité : un produit moins vendu, mais plus rentable à l'unité.
 
+**Segmentation par catégorie**
+
+**Home** est la catégorie la plus rentable, à la fois en chiffre d'affaires total (79 395) et en nombre de clients (25). Mais l'écart est plus marqué qu'il n'y paraît : rapporté au nombre de clients, un acheteur "home" dépense en moyenne **3 176**, contre seulement **959** pour un acheteur "electronics", soit plus de 3 fois plus.
