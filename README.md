@@ -1,16 +1,22 @@
 # Portfolio - Lynda HOUNDJI
 
-Projets réalisés dans le cadre de ma formation en analyse de données (Master 1 MIAGE, Université de Rennes).
-Chaque projet s'appuie sur des données fictives mais traitées comme de vraies problématiques métier.
+Projets réalisés dans le cadre de ma formation en analyse de données (Master 1 MIAGE, Université de Rennes), à l'appui de ma recherche d'alternance en tant que Data Analyst. Chaque projet s'appuie sur un dataset réel, traité comme une vraie problématique métier posée par un interlocuteur (gérant, équipe, client).
 
 ---
 
-## Projet 1 - Analyse e-commerce : SQL & nettoyage de données
+## [Projet 1 - Analyse e-commerce : SQL & nettoyage de données]
 
-Un dataset e-commerce avec de vrais défauts : doublons, valeurs manquantes, formats incohérents.
-Le projet couvre le nettoyage des données et l'analyse SQL autour de questions business concrètes : Quels produits se vendent le mieux ? A quelle période ? Pour quels types de clients ?
+## Mise en situation
 
-**Outils :** PostgreSQL, SQLite
+Le gérant d'une boutique en ligne exporte régulièrement ses données de vente depuis son système de commande, mais cet export n'a jamais été vérifié ni nettoyé : dates dans des formats différents, prix parfois saisis en texte, quantités négatives, catégories incohérentes, doublons de commandes... Avant de pouvoir répondre à ses questions sur l'activité de sa boutique, il faut d'abord rendre ces données fiables.
+
+## Compétences
+* Concevoir un schéma de base de données relationnelle à partir d'un export plat
+* Identifier et corriger des problèmes de qualité de données (valeurs manquantes, incohérences de format, doublons, valeurs aberrantes) en SQL
+* Traduire des questions business en requêtes SQL (agrégations, fonctions de fenêtre, CTE)
+
+## Outils
+PostgreSQL, DBeaver, SQLite
 
 <!--
 ---
