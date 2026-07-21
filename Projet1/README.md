@@ -52,5 +52,11 @@ Trois tables reliées entre elles (*customers*, *products*, *orders*) voir *sql/
 
 ## Résultats
 
-*À compléter au fil des requêtes d'analyse.*
+**Top produits**
+
+**Blender** est le produit star de la boutique : n°1 à la fois en chiffre d'affaires et en quantité vendue.
+
+Les deux classements (CA et quantité) ne se recoupent pas totalement, ce qui distingue deux profils de produits :
+* Science figure dans le top 5 par quantité vendue, mais pas dans le top 5 par chiffre d'affaires : un produit qui se vend souvent, mais à faible valeur unitaire.
+* Basketball figure dans le top 5 par chiffre d'affaires, mais pas dans le top 5 par quantité : un produit moins vendu, mais plus rentable à l'unité.
 
