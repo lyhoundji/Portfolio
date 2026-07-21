@@ -42,10 +42,10 @@ Trois tables reliées entre elles (*customers*, *products*, *orders*) voir *sql/
 3. Création des tables dans PostgreSQL (*sql/01_create_tables.sql*)
 4. Import des données brutes dans une table de staging (*raw_sales*) sans modification
 5. Nettoyage des données vers les tables finales (*sql/02_cleaning.sql*) :
-   - Doublons de commandes détectés et résolus par cohérence *total = price × quantity*
-   - Casse incohérente sur produits/catégories uniformisée (*LOWER()*)
-   - Catégories contradictoires par produit résolues par la valeur majoritaire (*MODE()*)
-   - Prix/quantités invalides ou manquants complétés par la médiane des valeurs valides du même produit
-   - Dates dans des formats hétérogènes uniformisées (*TO_DATE()*), valeurs invalides mises à *NULL*
+   * Doublons de commandes détectés et résolus par cohérence *total = price × quantity*
+   * Casse incohérente sur produits/catégories uniformisée (*LOWER()*)
+   * Catégories contradictoires par produit résolues par la valeur majoritaire (*MODE()*)
+   * Prix/quantités invalides ou manquants complétés par la médiane des valeurs valides du même produit
+   * Dates dans des formats hétérogènes uniformisées (*TO_DATE()*), valeurs invalides mises à *NULL*
 6. Requêtes d'analyse business répondant aux questions du gérant (*sql/03_analysis_queries.sql*)
 7. Export SQLite de la base nettoyée
