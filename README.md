@@ -6,6 +6,8 @@ Projets réalisés dans le cadre de ma formation en analyse de données (Master 
 
 # [Projet 1 - Analyse e-commerce : SQL & nettoyage de données](https://github.com/lyhoundji/Portfolio/tree/main/Projet1)
 
+![Bannière du projet](banners/projet1_banner.png)
+
 ## Mise en situation
 
 Le gérant d'une boutique en ligne exporte régulièrement ses données de vente depuis son système de commande, mais cet export n'a jamais été vérifié ni nettoyé : dates dans des formats différents, prix parfois saisis en texte, quantités négatives, catégories incohérentes, doublons de commandes... Avant de pouvoir répondre à ses questions sur l'activité de sa boutique, il faut d'abord rendre ces données fiables.
@@ -22,7 +24,12 @@ PostgreSQL, DBeaver, SQLite
 
 # Projet 2 - Analyse exploratoire Python : data storytelling
 
+![Bannière du projet](banners/projet2_banner.png)
+
 ---
 
 # Projet 3 - Dashboard interactif ou mini pipeline ETL
+
+![Bannière du projet](banners/projet3_banner.png)
+
 
