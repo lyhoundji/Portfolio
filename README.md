@@ -4,7 +4,7 @@ Projets réalisés dans le cadre de ma formation en analyse de données (Master 
 
 ---
 
-# Projet 1 - Analyse e-commerce : SQL & nettoyage de données
+# [Projet 1 - Analyse e-commerce : SQL & nettoyage de données](https://github.com/lyhoundji/Portfolio/tree/main/Projet1)
 
 ## Mise en situation
 

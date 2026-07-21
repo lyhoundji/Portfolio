@@ -49,3 +49,8 @@ Trois tables reliées entre elles (*customers*, *products*, *orders*) voir *sql/
    * Dates dans des formats hétérogènes uniformisées (*TO_DATE()*), valeurs invalides mises à *NULL*
 6. Requêtes d'analyse business répondant aux questions du gérant (*sql/03_analysis_queries.sql*)
 7. Export SQLite de la base nettoyée
+
+## Résultats
+
+*À compléter au fil des requêtes d'analyse.*
+
