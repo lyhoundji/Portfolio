@@ -60,7 +60,7 @@ Les deux classements (CA et quantité) ne se recoupent pas totalement, ce qui di
 * **Basketball** figure dans le top 5 par chiffre d'affaires, mais pas dans le top 5 par quantité : un produit moins vendu, mais plus rentable à l'unité.
 Voir `screenshots/04_orders_top5_by_revenue.png` et `screenshots/05_orders_top5_by_quantity.png`.
 
-1. **Segmentation par catégorie** : Quelles catégories de produits attirent le plus de clients, et lesquelles génèrent le plus de chiffre d'affaires ?
+2. **Segmentation par catégorie** : Quelles catégories de produits attirent le plus de clients, et lesquelles génèrent le plus de chiffre d'affaires ?
 
 **Home** est la catégorie la plus rentable, à la fois en chiffre d'affaires total (79 395) et en nombre de clients (25). Mais l'écart est plus marqué qu'il n'y paraît : rapporté au nombre de clients, un acheteur "home" dépense en moyenne **3 176**, contre seulement **959** pour un acheteur "electronics", soit plus de 3 fois plus.
 Voir `screenshots/06_orders_category_segmentation.png`.
@@ -71,7 +71,7 @@ Le mois de **février 2025** se distingue avec un chiffre d'affaires largement s
 Cependant, ce pic ne se retrouve ni en février 2023 ni en février 2024 : il s'agit probablement de quelques commandes ponctuelles à forte valeur, plutôt que d'une véritable saisonnalité récurrente. Le faible volume de données disponible (100 commandes réparties sur environ 3 ans) limite de toute façon la capacité à identifier une saisonnalité fiable sur ce dataset.
 Voir `screenshots/07_orders_seasonality_by_month.png`.
 
-4. **Chiffre d'affaires global**: Quel est notre chiffre d'affaires total, et comment évolue-t-il ?
+4. **Chiffre d'affaires global** : Quel est notre chiffre d'affaires total, et comment évolue-t-il ?
 
 Le chiffre d'affaires total sur l'ensemble de la période couverte par le dataset (environ 3 ans, 100 commandes) s'élève à **200 892,93**.
 Son évolution mois par mois est détaillée dans *screenshots/07_orders_seasonality_by_month.png* : hormis le pic isolé de février 2025, le CA mensuel reste globalement compris entre 1 200 et 20 000, sans tendance de croissance ou de baisse marquée sur la période.
