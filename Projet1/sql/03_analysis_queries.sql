@@ -63,3 +63,13 @@ SELECT
 FROM orders o
 GROUP BY EXTRACT(YEAR FROM order_date), EXTRACT(MONTH FROM order_date)
 ORDER BY annee ASC, mois ASC;
+
+-- ------------------------------------------------------------
+-- 4. CHIFFRE D'AFFAIRES GLOBAL
+-- ------------------------------------------------------------
+-- Question du gérant : "Quel est notre chiffre d'affaires total,
+-- et comment évolue-t-il ?"
+-- ------------------------------------------------------------
+
+SELECT SUM(o.total) AS chiffre_affaires_total
+FROM orders o;
