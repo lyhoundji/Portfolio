@@ -1,10 +1,10 @@
-# Portfolio - Lynda HOUNDJI
+## Portfolio - Lynda HOUNDJI
 
 Projets réalisés dans le cadre de ma formation en analyse de données (Master 1 MIAGE, Université de Rennes), à l'appui de ma recherche d'alternance en tant que Data Analyst. Chaque projet s'appuie sur un dataset réel, traité comme une vraie problématique métier posée par un interlocuteur (gérant, équipe, client).
 
 ---
 
-## [Projet 1 - Analyse e-commerce : SQL & nettoyage de données]
+# Projet 1 - Analyse e-commerce : SQL & nettoyage de données
 
 ## Mise en situation
 
@@ -18,21 +18,11 @@ Le gérant d'une boutique en ligne exporte régulièrement ses données de vente
 ## Outils
 PostgreSQL, DBeaver, SQLite
 
-<!--
 ---
 
-## Projet 2 - Analyse exploratoire Python : data storytelling
-
-Une analyse complète sur un dataset thématique. L'objectif n'est pas d'aligner des graphiques, mais de construire une lecture cohérente des données et de comprendre ce qu'elles racontent avant de décider quoi montrer.
-
-**Outils :** Python, pandas, matplotlib, seaborn
+# Projet 2 - Analyse exploratoire Python : data storytelling
 
 ---
 
-## Projet 3 - Dashboard interactif ou mini pipeline ETL
+# Projet 3 - Dashboard interactif ou mini pipeline ETL
 
-Soit un dashboard qu'on peut vraiment utiliser, soit un petit pipeline qui prend des données brutes et les rend exploitables. Le projet le plus concret du lot.
-
-**Outils :** Python, Streamlit / Power BI
-
--->
