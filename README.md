@@ -22,7 +22,7 @@ PostgreSQL, DBeaver, SQLite
 
 ---
 
-# [Projet 2 - Analyse exploratoire Python : data storytelling](https://github.com/lyhoundji/Portfolio/tree/main/Projet2)
+# [Projet 2 - Marché immobilier en Ille-et-Vilaine : exploration Python & data storytelling](https://github.com/lyhoundji/Portfolio/tree/main/Projet2)
 
 ![Bannière du projet](banners/projet2_banner.png)
 

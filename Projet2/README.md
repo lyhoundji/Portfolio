@@ -1,4 +1,4 @@
-# Projet 2 - Analyse exploratoire Python : data storytelling
+# Projet 2 - Marché immobilier en Ille-et-Vilaine : exploration Python & data storytelling
 
 ## Mise en situation
 
