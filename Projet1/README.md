@@ -1,5 +1,9 @@
 # Projet 1 - Analyse e-commerce : SQL & nettoyage de données
 
+Nettoyage d'un export de vente e-commerce brut et incoherent (dates, prix, categories, doublons) pour repondre aux questions d'un gerant sur son activite. Dataset de 103 lignes, environ 3 ans de commandes.
+
+**Resultat** : 3 tables PostgreSQL propres reliees entre elles, 4 requetes d'analyse documentees, chiffre d'affaires total identifie (200 892,93) et produit/categorie les plus rentables mis en evidence.
+
 ## Mise en situation
 
 Le gérant d'une boutique en ligne exporte régulièrement ses données de vente depuis son système de commande, mais cet export brut n'a jamais été vérifié ni nettoyé : dates dans des formats différents, prix parfois saisis en texte, quantités négatives, catégories mal orthographiées ou incohérentes, doublons de commandes...
