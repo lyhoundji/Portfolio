@@ -26,6 +26,20 @@ PostgreSQL, DBeaver, SQLite
 
 ![Bannière du projet](banners/projet2_banner.png)
 
+## Mise en situation
+
+Une agence immobilière implantée à Rennes veut objectiver son discours commercial. Ses conseillers s'appuient aujourd'hui sur leur intuition du marché, mais les clients arrivent de plus en plus informés et demandent des chiffres. L'agence dispose d'une source fiable et publique, les Demandes de Valeurs Foncières (DVF) publiées par l'État, qui recensent toutes les ventes immobilières. Elle a besoin d'une analyse claire du marché de l'Ille-et-Vilaine pour appuyer ses conseils.
+
+## Compétences
+* Préparer et nettoyer un dataset open data volumineux avec pandas (types, valeurs manquantes, valeurs aberrantes, filtrage du périmètre pertinent)
+* Mener une analyse exploratoire : distributions, comparaisons entre groupes, corrélations, évolution temporelle
+* Construire des visualisations soignées avec matplotlib et seaborn
+* Réaliser une visualisation cartographique (carte choroplèthe) en croisant des données tabulaires et des données géographiques
+* Pratiquer le data storytelling : structurer un notebook comme un récit qui répond à des questions business, pas comme une suite de graphiques
+
+## Outils
+Python (pandas, numpy, matplotlib, seaborn, geopandas), Jupyter Notebook
+
 ---
 
 # Projet 3 - Dashboard interactif ou mini pipeline ETL
