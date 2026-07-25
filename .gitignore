@@ -216,3 +216,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Données brutes du portfolio (trop volumineuses pour être versionnées)
+Projet2/data/raw/
