@@ -25,13 +25,14 @@ Colonnes principales utilisées :
 | Colonne | Description |
 |---|---|
 | `date_mutation` | Date de la vente |
-| `nature_mutation` | Type de transaction (vente, vente en l'état futur d'achèvement...) |
 | `valeur_fonciere` | Montant de la vente |
-| `type_local` | Type de bien (maison, appartement, local commercial...) |
+| `type_local` | Type de bien (maison, appartement) |
 | `surface_reelle_bati` | Surface habitable du bien |
-| `nombre_pieces_principales` | Nombre de pièces |
-| `code_postal` / `code_commune` / `nom_commune` | Localisation du bien |
+| `code_commune` / `nom_commune` | Localisation du bien (commune) |
 | `longitude` / `latitude` | Coordonnées géographiques de la parcelle |
+| `annee` | Année de la vente (ajoutée au chargement, une par fichier source) |
+
+Note méthodologique : la colonne `nature_mutation` a été utilisée pour ne conserver que les transactions de type "Vente" (en excluant échanges, expropriations, adjudications, et ventes en l'état futur d'achèvement), puis retirée du jeu de données final.
 
 Les fichiers bruts couvrent toute la France : un premier travail consistera à filtrer sur le département 35, sélectionner les colonnes utiles, et écarter les types de biens hors sujet (locaux commerciaux, terrains non bâtis) pour se concentrer sur les logements.
 
