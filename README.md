@@ -33,12 +33,12 @@ Une agence immobilière implantée à Rennes veut objectiver son discours commer
 ## Compétences
 * Préparer et nettoyer un dataset open data volumineux avec pandas (types, valeurs manquantes, valeurs aberrantes, filtrage du périmètre pertinent)
 * Mener une analyse exploratoire : distributions, comparaisons entre groupes, corrélations, évolution temporelle
-* Construire des visualisations soignées avec matplotlib et seaborn
+* Construire des visualisations soignées avec matplotlib
 * Réaliser une visualisation cartographique (carte choroplèthe) en croisant des données tabulaires et des données géographiques
 * Pratiquer le data storytelling : structurer un notebook comme un récit qui répond à des questions business, pas comme une suite de graphiques
 
 ## Outils
-Python (pandas, numpy, matplotlib, seaborn, geopandas), Jupyter Notebook
+Python (pandas, matplotlib, geopandas), Jupyter Notebook
 
 ---
 
